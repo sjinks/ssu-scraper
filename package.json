@@ -1,0 +1,36 @@
+{
+  "author": "Volodymyr Kolesnykov <volodymyr@wildwolf.name> (https://wildwolf.name/)",
+  "name": "ssu-scraper",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Scrapes the list of persons wanted by the Security Service of Ukraine",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^5.4.1",
+    "cheerio": "^1.0.0-rc.3",
+    "p-limit": "^2.2.1",
+    "request": "^2.88.0",
+    "typescript": "^3.5.3",
+    "voca": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^5.4.0",
+    "@types/cheerio": "^0.22.12",
+    "@types/node": "^12.6.8",
+    "@types/request": "^2.48.2",
+    "@types/voca": "^1.4.0",
+    "ts-node": "^8.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjinks/ssu-scraper.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/sjinks/ssu-scraper/issues"
+  },
+  "homepage": "https://github.com/sjinks/ssu-scraper#readme"
+}
